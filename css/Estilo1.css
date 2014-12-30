@@ -8,20 +8,26 @@ body {
 	padding:0;
 }
 <!--Contacto-->
-#menu{
-	width:950px;
-	height:35px;
-	margin:0 auto; 
-	background-color:#FFF;
-} 
 
-<!---INDEX-->
-#logos{
+
+#productos {
+	background-color:#CC6;
+	width: 80%;
+	height: 500px;	
+	margin :0 auto 0 auto; 
+}
+
+#Login 
+{
 	background-color:#FFF;
 	width:80%;
-	height: 5%;
-	margin:0 auto 0 auto;
+	height: 19px;
+	margin: 0 auto 0 auto;
 }
+
+	#Login a{color:#333333;}
+	#Login a:hover{color:#66CCFF;} 
+
 #encabezado {
 	background-image:url(../img/cabecera.jpg);
 	width: 80%;
@@ -29,32 +35,43 @@ body {
 	margin: 0 auto 0 auto;
 }
 
-#productos {
-	background-color:#CC6;
-	width: 80%;
-	height: 500px;	
-	margin :28% auto 0 auto; 
-}
-
 #pie {
 	background-color:#FFF;
 	width:80%;
-	height: 30px;
+	height: 19px;
+	margin: auto;
+	position:static;
+}
+
+#pie ul{
+	list-style-type:none;
+	background-color:#FFF;
+	width:80%;
+	height: 1px;
 	margin: 0 auto 0 auto;
 	
 	
 }
 
-#pie a{ color:#333333; }
-#pie a:hover{ color:#66CCFF; }
-#pie span{ padding:0 5px;}
+#pie ul li{
+	
+	background: #FFF;
+    margin: 0 auto 0 auto;
+	display:inline;
 
+	
+}
 
+#pie ul li a{ color:#333333; margin-left:5px; padding:0 30px 0;}
+#pie ul li a:hover{ color:#66CCFF; }
+#pie ul li span{ padding:0 5px;}
+
+.fixPosition{height:53px;width:0;margin-left: 134px;}
 .slideshow {
 	height : 332px;
 	width : 80%;
 	margin-left: 134px;
-	position : relative; z-index:5;float:left;
+	/*position : relative; z-index:1;float:left;*/
 }
 
 .slideshow img {
@@ -62,6 +79,7 @@ body {
 	padding : 15px; 
 	border: 1px solid #ccc;
 	background-color : #eee;
+	
 }
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 #cssmenu,
@@ -99,6 +117,7 @@ body {
   background: #ffffff;
   margin-left: 134px;
   position : relative; z-index:10;float:left;
+ 
 }
 #menu-line {
   position: absolute;
