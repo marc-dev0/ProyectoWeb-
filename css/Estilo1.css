@@ -66,7 +66,25 @@ body {
 #pie ul li a:hover{ color:#66CCFF; }
 #pie ul li span{ padding:0 5px;}
 
+#CuerpoContacto {
+	position:relative;
+	background-color:#366;
+	width:80%;
+	height:500px;
+	margin : 0 auto 0 auto;
+}
+
+#UbicacionContacto {
+	position:relative;
+	background-color:#F96;
+	width:400px;
+	height:400px;
+	left:1%;
+	top:14%;
+}
+
 .fixPosition{height:53px;width:0;margin-left: 134px;}
+
 .slideshow {
 	height : 332px;
 	width : 80%;
