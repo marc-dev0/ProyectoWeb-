@@ -36,7 +36,7 @@ body {
 }
 
 #pie {
-	background-color:#FFF;
+	background-color:#333333;
 	width:80%;
 	height: 19px;
 	margin: auto;
@@ -45,7 +45,7 @@ body {
 
 #pie ul{
 	list-style-type:none;
-	background-color:#FFF;
+	background-color:#333333;
 	width:80%;
 	height: 1px;
 	margin: 0 auto 0 auto;
@@ -55,20 +55,20 @@ body {
 
 #pie ul li{
 	
-	background: #FFF;
+	background: #333333;
     margin: 0 auto 0 auto;
 	display:inline;
 
 	
 }
 
-#pie ul li a{ color:#333333; margin-left:5px; padding:0 30px 0;}
+#pie ul li a{ color:#FFFFFF; margin-left:5px; padding:0 30px 0;}
 #pie ul li a:hover{ color:#66CCFF; }
 #pie ul li span{ padding:0 5px;}
 
 #CuerpoContacto {
 	position:relative;
-	background-color:#366;
+	background-color:#FFFBF0;
 	width:80%;
 	height:700px;
 	margin : auto;
@@ -77,13 +77,14 @@ body {
 
 #UbicacionContacto {
 	position:relative;
-	background-color:#F96;
+	background-color:#FFFBF0;
 	width:400px;
 	height:650px;
 	margin-left:1%;
 	margin-top:1%;
 	margin-bottom:1%;
 	float:left;
+	border:1px solid;
 	
 }
 
@@ -103,90 +104,32 @@ margin-top: 5%;
 	
 }
 
-.formato label{
+#datosContenido .formato label{
 	
 	font:Georgia, "Times New Roman", Times, serif;
 	font-style:italic;
 	font-weight:bold;
 	width:150px;
 	height:40px;
-	float:left;
 	margin-bottom:10px;
 }
 
-.texto {
-	
-	width:180px;
-	height:20px;
-	margin-bottom:10px;
-}
 
-form {
-	background-color:#F96;
-	width:500px;
-	height:470px;
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	margin:auto;
-}
-
-
-#datosContenido p {
+.formato p{
 	text-align:center;
 }
 
+form {
+	background-color:#FFFBF0;
+	width:640px;
+	height:650px;
+	margin:auto;
+	border:1px solid;
+}
+
+
 	#formularioContacto {
-		background-color:#F96;
+		background-color:#FFFBF0;
 		height:650px;
 		width:640px;
 		float:left;
@@ -194,6 +137,52 @@ form {
 		margin-top:1%;
 		margin-bottom:1%;
 		margin-right:1%;
+	}
+	
+	#formularioContacto label {
+		position:static;
+		width:120px;
+		height:25px;
+		margin-bottom:10px;
+		margin-left:10px;
+		margin-right:150px;
+		margin-top:20px;
+		float:left;
+	}
+	
+	#formularioContacto h1 {
+		margin-left:10px;
+	}
+	
+	#formularioContacto input {
+			width:180px;
+			height:20px;
+			margin-bottom:10px;
+			margin-top:19px;
+			
+	}
+	
+	#formularioContacto textarea {
+		width:610px;
+		height:300px;
+		margin-left:10px;
+		margin-bottom:10px;
+	}
+	
+    #botones {
+		height:30px;
+		width:640px;
+		background-color:#FFFBF0;
+		
+	}
+	
+	#botones .button {
+		
+		width:150px;
+		height:25px;
+		margin-left:10px;
+		margin-top:3px;
+		margin-right:10px;
 	}
 	
 .fixPosition{height:53px;width:0;margin-left: 134px;}
@@ -245,7 +234,7 @@ form {
   width: 80%;
   font-family: 'Open Sans', sans-serif;
   line-height: 1;
-  background: #ffffff;
+  background: #333333;
   margin-left: 134px;
   position : relative; z-index:10;float:left;
  
@@ -287,7 +276,7 @@ form {
   font-size: 12px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #000000;
+  color: #FFFFFF;
   -webkit-transition: color .2s ease;
   -moz-transition: color .2s ease;
   -ms-transition: color .2s ease;
