@@ -63,10 +63,10 @@ body {
 
 #pie ul li a{ color:#FFFFFF; margin-left:5px; padding:0 30px 0;}
 #pie ul li a:hover{ color:#66CCFF; }
-#pie ul li span{ padding:0 5px;}
+#pie ul li span{ padding:0 5px;color:white}
 
-#CuerpoContacto {
-	
+#CuerpoPagina {
+
 	position:relative;
 	background-color:#FFFBF0;
 	width:80%;
@@ -77,7 +77,7 @@ body {
 	
 }
 
-#CuerpoContacto img {
+#CuerpoPagina img {
 	margin-right:1%;
 	margin-top:2%;´
 	
@@ -97,6 +97,82 @@ body {
 	
 }
 
+#CuerpoPagina #Acercade p{
+
+  padding: 25px 100px 0 100px;
+  text-align: justify;
+}
+
+#CuerpoPagina #Acercade h3{
+
+  padding: 100px 0 0 100px;
+}
+
+#CuerpoPagina #video {
+  margin-top: 0px;
+  text-align: center;
+}
+
+#CuerpoPagina #Catalogo {
+ 
+  width:146px;
+  height:200px;
+  padding:50px 50px 50px 50px;
+}
+
+#CuerpoPagina #Catalogo .muestra {
+  
+  margin-top:0px;
+  width:180px;
+  height: 200px;
+  border:1px solid;
+}
+
+#CuerpoPagina #Catalogo .muestra .titulo {
+  position:relative;
+  margin:2px 2px 2px 2px;
+  width:174px;
+  height: 20px;
+  /*border:1px solid;*/
+  text-align: left;
+}
+
+#CuerpoPagina #Catalogo .muestra .Descripcion {
+  position:relative;
+  margin:2px 2px 2px 2px;
+  width:174px;
+  height: 100px;
+  /*border:1px solid;*/
+  text-align: left;
+}
+
+#CuerpoPagina #Catalogo .muestra .Precio {
+  position:relative;
+  margin:2px 2px 2px 2px;
+  width:170px;
+  height: 100px;
+  /*border:1px solid;*/
+  text-align: center;
+}
+
+#CuerpoPagina #Catalogo .muestra .Precio p{
+  font-size:30px;
+}
+
+
+#CuerpoPagina #Catalogo .muestra .Botones {
+  position:relative;
+  margin:25px 2px 2px 2px;
+  width:174px;
+  height: 30px;
+  /*border:1px solid;*/
+  text-align: left;
+}
+
+#CuerpoPagina #Catalogo .muestra .Botones .button{
+  margin:4px 10px 4px 4px;
+
+}
 #paginaFlash {
 	
 	width: 380; /* Ancho del frame */
