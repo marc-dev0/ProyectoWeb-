@@ -17,6 +17,7 @@
 		 });
 		 } )
    </script>
+
 </head>
 	
 <body>
@@ -66,8 +67,8 @@
 		</div>
 		
   		<div class="slideshow">
-        	<img src="img/baner1_converted.jpg" height = "300" width ="97%" alt"" />
-            <img src="img/baner2.jpg" height="300" width="97%" alt="" />
+        	<img src="img/baner1_converted.jpg" height = "280" width ="97%" alt"" />
+            <img src="img/baner2.jpg" height="280" width="97%" alt="" />
         </div>
 
     	<div id="CuerpoPagina">
@@ -75,10 +76,14 @@
         <div id="Catalogo">
         <TABLE BORDER=1 WIDTH="980">
 
-                  <td width="146" height="200">
-                       <img src="..\ProyectoWeb\img\tecladoK500.png" /></a>
+                  <td width="140" height="194">
+                       <!--<img src="..\ProyectoWeb\img\tecladoK500.png"/>-->
+                       <img border="0" src="..\ProyectoWeb\img\tecladoK500.png" onload="preloadcambiar(this,'..\ProyectoWeb\img\tottus_converted.png');" name="IMG1"/>
+                       <!--No sirve el cambiar la imagen al pasar el mouse.
+                       onmouseover="this.src='..\ProyectoWeb\img\tottus_converted.png';"
+                       onmouseout="this.src='..\ProyectoWeb\img\tecladoK500.png';"/>
+                     -->
                   </td>
-
                   <td width="180" height="200px" >
                       <div class="muestra">
                         <div class="titulo"><u>Teclado MIC K500</u></div>
@@ -165,6 +170,7 @@
         </TABLE>
 
         </div>
+      </div>
        <!--
         <table border="0" align="center" cellpadding="0" cellspacing="0">
       <tr>

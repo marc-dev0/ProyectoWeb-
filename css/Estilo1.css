@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+
 body {
 	background-image:url(../img/fondo.jpg);
 	width: 100%;
@@ -7,8 +8,30 @@ body {
 	margin :0;
 	padding:0;
 }
-<!--Contacto-->
 
+<!--Contacto-->
+/*
+body{
+  background: #303030;
+}
+
+.contenedor {
+  position: relative;
+  height: 290px;
+  width: 290px;
+  margin: 50px auto;
+}
+
+.contenedor img {
+  position: absolute;
+  left: 0;
+  transition: opacity 1.5s ease-in-out;
+}
+
+.contenedor img.top:hover {
+  opacity: 0;
+}
+*/
 
 #productos {
 	background-color:#CC6;
@@ -97,6 +120,15 @@ body {
 	
 }
 
+#CuerpoPagina #Acercade {
+  width:80%;
+  height:700px;
+  margin-top: -1.7%;
+  position:relative;
+  padding-left: 100px;
+
+}
+
 #CuerpoPagina #Acercade p{
 
   padding: 25px 100px 0 100px;
@@ -114,10 +146,14 @@ body {
 }
 
 #CuerpoPagina #Catalogo {
- 
-  width:146px;
-  height:200px;
+  position:relative;
+  background-color: #FFFBF0;
+  width:90.5%;
+  height:625px;
+  margin-top: -1.82%;
   padding:50px 50px 50px 50px;
+ 
+  
 }
 
 #CuerpoPagina #Catalogo .muestra {
@@ -357,8 +393,9 @@ form {
   line-height: 1;
   background: #333333;
   margin-left: 134px;
-  position : relative; z-index:10;float:left;
- 
+  position : relative; 
+  z-index:10; 
+  /*float:left;borrar está línea arregla el margen del slide con el menu*/ 
 }
 #menu-line {
   position: absolute;
