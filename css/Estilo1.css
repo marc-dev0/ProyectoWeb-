@@ -120,6 +120,10 @@ body{
 	
 }
 
+#UbicacionContacto h1 {
+  color: #000000;
+}
+
 #CuerpoPagina #Acercade {
   width:80%;
   height:700px;
@@ -161,16 +165,25 @@ body{
   margin-top:0px;
   width:180px;
   height: 200px;
-  border:1px solid;
-}
+ }
 
 #CuerpoPagina #Catalogo .muestra .titulo {
+  background-color: #951919;
   position:relative;
-  margin:2px 2px 2px 2px;
-  width:174px;
-  height: 20px;
-  /*border:1px solid;*/
-  text-align: left;
+ /*margin:2px 2px 2px 2px;*/
+  width:182px;
+  height: 50px;
+  margin-top: -17px;
+  display:table-cell;
+  vertical-align: middle;
+  
+
+}
+#CuerpoPagina #Catalogo .muestra .titulo p{
+  position:relative;
+  text-align: center;
+  color: #FFFFFF;
+
 }
 
 #CuerpoPagina #Catalogo .muestra .Descripcion {
@@ -273,6 +286,7 @@ form {
 	
 	#formularioContacto h1 {
 		margin-left:10px;
+    color: #000000;
 	}
 	
 	#formularioContacto input {
