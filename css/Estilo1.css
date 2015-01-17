@@ -42,13 +42,13 @@ body{
 
 #Login 
 {
-	background-color:#FFF;
+	background-color:#333333;
 	width:80%;
 	height: 19px;
 	margin: 0 auto 0 auto;
 }
 
-	#Login a{color:#333333;}
+	#Login a{color:#FFFFFF;}
 	#Login a:hover{color:#66CCFF;} 
 
 #encabezado {
@@ -168,7 +168,7 @@ body{
  }
 
 #CuerpoPagina #Catalogo .muestra .titulo {
-  background-color: #951919;
+  background-color: #126396;
   position:relative;
  /*margin:2px 2px 2px 2px;*/
   width:182px;
@@ -187,38 +187,43 @@ body{
 }
 
 #CuerpoPagina #Catalogo .muestra .Descripcion {
+ background-color: #B2DDF7;
   position:relative;
   margin:2px 2px 2px 2px;
   width:174px;
-  height: 100px;
-  /*border:1px solid;*/
+  height: 140px;
+  border:1px solid;
   text-align: left;
 }
 
 #CuerpoPagina #Catalogo .muestra .Precio {
   position:relative;
-  margin:2px 2px 2px 2px;
-  width:170px;
-  height: 100px;
-  /*border:1px solid;*/
+  margin:2px 0px 2px 0px;
+  width:174px;
+  height: 80px;
+  border:1px solid;
   text-align: center;
 }
 
 #CuerpoPagina #Catalogo .muestra .Precio p{
-  font-size:30px;
+  margin-top:2px;
+  font-size:70px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 
-#CuerpoPagina #Catalogo .muestra .Botones {
+#CuerpoPagina #Catalogo .muestra .Descripcion .Botones {
   position:relative;
-  margin:25px 2px 2px 2px;
+  margin:0px 0px 2px 0px;
   width:174px;
   height: 30px;
-  /*border:1px solid;*/
+  border:1px solid;
   text-align: left;
 }
 
-#CuerpoPagina #Catalogo .muestra .Botones .button{
+#CuerpoPagina #Catalogo .muestra .Descripcion .Botones .button{
   margin:4px 10px 4px 4px;
 
 }
