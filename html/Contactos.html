@@ -4,7 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>RSC Technology</title>
 	<link href="../css/Estilo1.css" rel="stylesheet" type="text/css" />
-   
+  
+    <script type="text/javascript" src="../js/validaciones.js"></script>
    <!-- jQuery Library-->
    <script type="text/javascript" src="../js/jquery.js"></script>
    <!-- Cycle plugin -->
@@ -89,22 +90,22 @@
           		</div>
             </div>
             <div id="formularioContacto">
-            <form>
+            <form name="fvalida">
             	<h1><u>Envíenos su consulta</u></h1>
             	<div class="formato">
                 	<label>Nombre:</label>
-                    <input type="text" />
-                    <label>E-Mail:</label>
-				    <input type="text" />
+                    <input placeholder ="Ingrese su nombre" type="text" name="nombre" autofocus="autofocus" required="required"/>
+                  <label>E-Mail:</label>
+				            <input placeholder ="Ingrese su e-mail"type="email" required="required"/>
                 	<label>Asunto:</label>
-                    <input type="text" />
+                    <input placeholder ="Ingrese el asunto"type="text" required="required"/>
                     <label>Mensaje:</label>
-                   	<textarea></textarea>
+                   	<textarea placeholder="Escriba su mensaje aquí"></textarea>
                 </div>
                 <div id="botones">
-                	<input class="button" type="submit" value="Enviar" />
+                	<input class="button" type="submit" value="Enviar" onclick="valida_envia()"/>
                     <input class="button" type="reset" value="Limpiar" />
-                    <input class="button" type="submit" value="Cancelar" />
+                    
 	            </div>
             </form>
             
